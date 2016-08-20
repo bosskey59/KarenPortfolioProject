@@ -31,7 +31,6 @@ hr {
 }
 
 h1 {
-  font-weight: 100;
   font-size: 50px;
 }
 
@@ -39,9 +38,13 @@ h1 {
   padding-top: 20px;
 }
 
+.more_padding{
+  padding-top: 12px;
+}
+
 .limit_size {
   max-width: 95px;
-  max-height: 95px;
+  max-height: 135px;
   padding-top: 25px;
 }
 
