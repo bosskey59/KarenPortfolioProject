@@ -4,20 +4,23 @@
     color: #2d3c49;
 }
 
-@media (max-width: 768px) {
-  .xs_center{
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-}
+
 
 .container-fluid,
 .row {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.navbar-default{
+  background-color: white;
+  border: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  font-size: 25px;
 }
 
 hr {
@@ -30,16 +33,24 @@ hr {
     margin-right: auto;*/
 }
 
+.padding_right {
+    padding-right: 45px;
+}
+
+.padding_left {
+    padding-left: 50px;
+}
+
 h1 {
   font-size: 50px;
 }
 
 .padding_top {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .more_padding{
-  padding-top: 12px;
+  padding-top: 18px;
 }
 
 .limit_size {
@@ -51,3 +62,46 @@ h1 {
 .gray_color {
   color: #7d97ad;
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 200px;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 140px;
+}
+.green{
+  background-color: #89CC9C;
+}
+
+.grey{
+  background-color: #999999;
+}
+
+@media (max-width: 768px) {
+  .xs_center{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .padding_left{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .padding_right{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
