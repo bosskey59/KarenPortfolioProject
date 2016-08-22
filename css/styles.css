@@ -69,7 +69,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 200px;
+  margin-bottom: 275px;
 }
 .footer {
   position: absolute;
@@ -77,6 +77,16 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 140px;
+}
+.pre_footer {
+  position: absolute;
+  bottom: 140px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+}
+.button_padding{
+  padding-top: 25px;
 }
 .green{
   background-color: #89CC9C;
