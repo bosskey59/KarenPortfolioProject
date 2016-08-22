@@ -88,6 +88,7 @@ body {
 .pre_footer .btn-default{
   background-color: #89CC9C;
   color: #FFF;
+  border-color: #FFF;
 }
 .button_padding{
   padding-top: 25px;
