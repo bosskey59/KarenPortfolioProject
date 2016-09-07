@@ -53,14 +53,12 @@ h1 {
   padding-top: 18px;
 }
 
-.limit_size {
-  max-width: 95px;
-  max-height: 135px;
-  padding-top: 25px;
+.icon_padding{
+  padding-right: 10px;
 }
 
-.gray_color {
-  color: #7d97ad;
+.s_icon_padding{
+  padding-right: 5px;
 }
 
 html {
@@ -69,7 +67,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 275px;
+  margin-bottom: 250px;
 }
 .footer {
   position: absolute;
@@ -86,12 +84,17 @@ body {
   height: 80px;
 }
 .pre_footer .btn-default{
-  background-color: #89CC9C;
   color: #FFF;
-  border-color: #FFF;
+  border: none;
+  height: 45px;
+  padding-top: 7px;
+  font-size: 20px;
+}
+.pre_footer .btn-default:hover{
+background-color: #999999;
 }
 .button_padding{
-  padding-top: 25px;
+  padding-top: 18px;
 }
 .green{
   background-color: #89CC9C;
@@ -103,6 +106,10 @@ body {
 
 .light_green{
   background-color: #D0E9d7;
+}
+
+.dark_green{
+  background-color: #648C60;
 }
 
 @media (max-width: 768px) {
